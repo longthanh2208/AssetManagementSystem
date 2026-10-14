@@ -1,0 +1,18 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+## SQLite - không push db lên, Railway sẽ tạo mới từ seed data
+kazanneft.db
+kazanneft.db-shm
+kazanneft.db-wal
+
+## Build artifacts
+publish/
+
+## Environment
+.env
+*.env.local
